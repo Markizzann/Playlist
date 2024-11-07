@@ -66,3 +66,6 @@ def parse_playlist_c(playlist):
         title, duration = song.rsplit(';', 1)
         parsed_playlist.append([title.strip(), float(duration.strip())])
     return parsed_playlist 
+
+def get_random_songs(playlist, n):
+	return random.sample(playlist, n)

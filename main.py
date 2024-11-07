@@ -57,29 +57,5 @@ playlist_c = (
 
 
 
-import random
-<<<<<<< HEAD
-
-print(random.choice([1, 2, 3]))
-
 import random 
-
-
-
-
-
-
-
-
-
-
-
-def parse_playlist_c(playlist):
-	parse_playlist = []
-	for song in playlist:
-		title, duration = song.rsplit(';', 1)
-		parse_playlist.append([title.strip(), float(duration.strip())])
-	return parsed_playlist
-=======
 from datetime import timedelta
->>>>>>> 0250b3c28ca175dd97ffcc1aad06bfbfb2910e6d

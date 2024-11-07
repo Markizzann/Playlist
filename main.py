@@ -68,4 +68,9 @@ def parse_playlist_c(playlist):
     return parsed_playlist 
 
 def get_random_songs(playlist, n):
-	return random.sample(playlist, n)
+	return random.sample(playlist, n)	
+	
+def calculate_total_duration(songs):
+    total_duration = sum(song[1] for song in songs)
+    return total_duration
+    	

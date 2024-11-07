@@ -86,5 +86,5 @@ def get_duration(playlist, n):
     
     return convert_to_timedelta(total_duration)  
 
-	print(get_duration(playlist_a, 3))
-	
+print(get_duration(playlist_a, 3))
+print(get_duration(playlist_c, 4)) 

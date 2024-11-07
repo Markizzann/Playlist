@@ -43,3 +43,19 @@ playlist_c = (
 	«Relax, Take It Easy; 4.30»,
 	«Dancing Queen; 3.36»,
 )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+import random
+from datetime import timedelta

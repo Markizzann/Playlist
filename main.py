@@ -85,3 +85,6 @@ def get_duration(playlist, n):
     total_duration = calculate_total_duration(random_songs)
     
     return convert_to_timedelta(total_duration)  
+
+	print(get_duration(playlist_a, 3))
+	

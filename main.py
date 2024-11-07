@@ -59,3 +59,10 @@ playlist_c = (
 
 import random 
 from datetime import timedelta
+
+def parse_playlist_c(playlist):
+    parsed_playlist = []
+    for song in playlist:
+        title, duration = song.rsplit(';', 1)
+        parsed_playlist.append([title.strip(), float(duration.strip())])
+    return parsed_playlist 

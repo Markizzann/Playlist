@@ -20,28 +20,28 @@
 # get_duration(playlist: Iterable, n: int) -> Any
 
 playlist_a = [
-	[‘Waste a Moment’, 3.03],
-	[‘New Salvation’, 4.02],
-	[‘Staying\’ Alive’, 3.40],
-	[‘Out of Touch’, 3.03],
-	[‘A Sorta Fairytale’, 5.28],
-	[‘Easy’, 4.15],
-	[‘Beautiful Day’, 4.04],
-	[‘Nowhere to Run’, 2.58],
-	[‘In This World’, 4.02],
-	]
+    ['Waste a Moment', 3.03],
+    ['New Salvation', 4.02],
+    ["Staying' Alive", 3.40],
+    ['Out of Touch', 3.03],
+    ['A Sorta Fairytale', 5.28],
+    ['Easy', 4.15],
+    ['Beautiful Day', 4.04],
+    ['Nowhere to Run', 2.58],
+    ['In This World', 4.02],
+]
 
 playlist_c = (
-	«Happy Nation; 3.32»,
-	«It’s My Life; 3.59»,
-	«Lady(Hear Me Tonight); 5.07»,
-	«Fields Of Gold; 3.38»,
-	«The Winner Takes It All; 4.54»,
-	«Self Control; 4.06»,
-	«I Shot The Sheriff; 4.57»,
-	«Don’t Give Up; 6.34»,
-	«Relax, Take It Easy; 4.30»,
-	«Dancing Queen; 3.36»,
+    "Happy Nation; 3.32",
+    "It's My Life; 3.59",
+    "Lady (Hear Me Tonight); 5.07",
+    "Fields Of Gold; 3.38",
+    "The Winner Takes It All; 4.54",
+    "Self Control; 4.06",
+    "I Shot The Sheriff; 4.57",
+    "Don't Give Up; 6.34",
+    "Relax, Take It Easy; 4.30",
+    "Dancing Queen; 3.36",
 )
 
 

@@ -77,6 +77,12 @@ def calculate_total_duration(songs):
 def convert_to_timedelta(total_duration):
 	return timedelta(minutes=total_duration)
 	
+def format_duration(td):
+    total_seconds = int(td.total_seconds())
+    minutes = total_seconds // 60
+    seconds = total_seconds % 60
+    return f"{minutes:02}:{seconds:02}" 	
+	
 def get_duration(playlist, n):
     if isinstance(playlist[0], str):
       playlist = parse_playlist_c(playlist)
@@ -84,7 +90,7 @@ def get_duration(playlist, n):
     random_songs = get_random_songs(playlist, n) 	
     total_duration = calculate_total_duration(random_songs)
     
-    return convert_to_timedelta(total_duration)  
+    return format_duration(convert_to_timedelta(total_duration))
 
 print(get_duration(playlist_a, 3))
 print(get_duration(playlist_c, 4)) 

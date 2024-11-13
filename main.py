@@ -75,7 +75,6 @@ def calculate_total_duration(songs):
     return total_duration
 
 def convert_to_timedelta(total_duration):
-	return timedelta(minutes=total_duration)	return timedelta(minutes=total_duration)
 	
 def get_duration(playlist, n):
     if isinstance(playlist[0], str):
